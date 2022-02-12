@@ -14,14 +14,11 @@ timeConvert()
 #Question Two
 
 
-number = 0
 
-def questionTwo():
-    global number
-    number += 1
-    return number
 
-print(questionTwo())
+def questionTwo(number):
+    print(number + 1)
+questionTwo(10)
 
 # Question Three
 
